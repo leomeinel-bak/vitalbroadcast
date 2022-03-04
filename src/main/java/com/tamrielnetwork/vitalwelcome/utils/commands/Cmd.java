@@ -1,5 +1,5 @@
 /*
- * VitalBack is a Spigot Plugin that gives players the ability to teleport back to their last location.
+ * VitalBroadcast is a Spigot Plugin that gives players the ability to send broadcasts.
  * Copyright © 2022 Leopold Meinel
  *
  * This program is free software: you can redistribute it and/or modify
@@ -13,7 +13,7 @@
  * GNU General Public License for more details.
  *
  * You should have received a copy of the GNU General Public License
- * along with this program. If not, see https://github.com/TamrielNetwork/VitalBack/blob/main/LICENSE
+ * along with this program. If not, see https://github.com/TamrielNetwork/VitalBroadcast/blob/main/LICENSE
  */
 
 package com.tamrielnetwork.vitalwelcome.utils.commands;
