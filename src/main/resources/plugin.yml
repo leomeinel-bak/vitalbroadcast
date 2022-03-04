@@ -1,0 +1,15 @@
+name: VitalBroadcast
+version: @version@
+main: com.tamrielnetwork.vitalwelcome.VitalBroadcast
+api-version: 1.17
+authors: [ Tamriel Network ]
+website: https://tamriel.site
+description: Broadcasts a welcome message when new players join.
+commands:
+  broadcast:
+    description: "Main command"
+    usage: "/broadcast"
+permissions:
+  vitalbroadcast.broadcast:
+    description: "Permission to send broadcast"
+    default: op
