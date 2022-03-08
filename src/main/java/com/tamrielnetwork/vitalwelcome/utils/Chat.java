@@ -30,11 +30,12 @@ import java.util.Objects;
 
 public class Chat {
 
+	private static final VitalBroadcast main = JavaPlugin.getPlugin(VitalBroadcast.class);
+
 	private Chat() {
+
 		throw new IllegalStateException("Utility class");
 	}
-
-	private static final VitalBroadcast main = JavaPlugin.getPlugin(VitalBroadcast.class);
 
 	public static void sendBroadcast(@NotNull String message) {
 
