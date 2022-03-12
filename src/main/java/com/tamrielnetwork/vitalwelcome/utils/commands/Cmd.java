@@ -25,12 +25,10 @@ import org.jetbrains.annotations.NotNull;
 public class Cmd {
 
 	private Cmd() {
-
 		throw new IllegalStateException("Utility class");
 	}
 
 	public static boolean isArgsLengthLessThan(@NotNull CommandSender sender, @NotNull String[] args, int length) {
-
 		if (args.length < length) {
 			Chat.sendMessage(sender, "cmd");
 			return true;
@@ -39,12 +37,10 @@ public class Cmd {
 	}
 
 	public static boolean isNotPermitted(@NotNull CommandSender sender, @NotNull String perm) {
-
 		if (!sender.hasPermission(perm)) {
 			Chat.sendMessage(sender, "no-perms");
 			return true;
 		}
 		return false;
 	}
-
 }

@@ -33,25 +33,23 @@ public class Chat {
 	private static final VitalBroadcast main = JavaPlugin.getPlugin(VitalBroadcast.class);
 
 	private Chat() {
-
 		throw new IllegalStateException("Utility class");
 	}
 
 	public static void sendBroadcast(@NotNull String message) {
-
-		for (Player player : Bukkit.getServer().getOnlinePlayers()) {
+		for (Player player : Bukkit.getServer()
+		                           .getOnlinePlayers()) {
 			player.sendMessage(replaceColors(message));
 		}
 	}
 
 	public static void sendMessage(@NotNull CommandSender player, @NotNull String message) {
-
-		player.sendMessage(replaceColors(Objects.requireNonNull(main.getMessages().getMessagesConf().getString(message))));
+		player.sendMessage(replaceColors(Objects.requireNonNull(main.getMessages()
+		                                                            .getMessagesConf()
+		                                                            .getString(message))));
 	}
 
 	public static String replaceColors(@NotNull String string) {
-
 		return ChatColor.translateAlternateColorCodes('&', string);
 	}
-
 }

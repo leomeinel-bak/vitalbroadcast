@@ -25,21 +25,20 @@ import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
 import org.jetbrains.annotations.NotNull;
 
-public class VitalBroadcastCmd implements CommandExecutor {
+public class VitalBroadcastCmd
+		implements CommandExecutor {
 
 	@Override
-	public boolean onCommand(@NotNull CommandSender sender, @NotNull Command command, @NotNull String label, @NotNull String[] args) {
-
+	public boolean onCommand(@NotNull CommandSender sender, @NotNull Command command, @NotNull String label,
+	                         @NotNull String[] args) {
 		if (Cmd.isArgsLengthLessThan(sender, args, 1)) {
 			return false;
 		}
 		doBroadcast(sender, args);
 		return true;
-
 	}
 
 	private void doBroadcast(@NotNull CommandSender sender, @NotNull String[] args) {
-
 		if (Cmd.isNotPermitted(sender, "vitalbroadcast.broadcast")) {
 			return;
 		}
@@ -49,13 +48,10 @@ public class VitalBroadcastCmd implements CommandExecutor {
 				broadcastBuilder.append(arg);
 				continue;
 			}
-			broadcastBuilder.append(" ").append(arg);
+			broadcastBuilder.append(" ")
+			                .append(arg);
 		}
-
 		String broadcast = broadcastBuilder.toString();
-
 		Chat.sendBroadcast(broadcast);
-
 	}
-
 }
