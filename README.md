@@ -10,7 +10,7 @@
 <!--suppress ALL -->
 <br />
 <p align="center">
-  <a href="https://github.com/TamrielNetwork/VitalBroadcast">
+  <a href="https://github.com/LeoMeinel/VitalBroadcast">
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
@@ -19,14 +19,14 @@
   <p align="center">
     Broadcast on Spigot and Paper
     <br />
-    <a href="https://github.com/TamrielNetwork/VitalBroadcast"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/LeoMeinel/VitalBroadcast"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/TamrielNetwork/VitalBroadcast">View Demo</a>
+    <a href="https://github.com/LeoMeinel/VitalBroadcast">View Demo</a>
     ·
-    <a href="https://github.com/TamrielNetwork/VitalBroadcast/issues">Report Bug</a>
+    <a href="https://github.com/LeoMeinel/VitalBroadcast/issues">Report Bug</a>
     ·
-    <a href="https://github.com/TamrielNetwork/VitalBroadcast/issues">Request Feature</a>
+    <a href="https://github.com/LeoMeinel/VitalBroadcast/issues">Request Feature</a>
   </p>
 
 <!-- TABLE OF CONTENTS -->
@@ -99,7 +99,7 @@ no-perms: "&cYou don't have enough permissions!"
 
 ## Roadmap
 
-See the [open issues](https://github.com/TamrielNetwork/VitalBroadcast/issues) for a list of proposed features (and
+See the [open issues](https://github.com/LeoMeinel/VitalBroadcast/issues) for a list of proposed features (and
 known issues).
 
 <!-- CONTRIBUTING -->
@@ -129,7 +129,7 @@ Leopold Meinel - [@TamrielN](https://twitter.com/TamrielN) - Twitter
 
 Leopold Meinel - [contact@tamriel.me](mailto:contact@tamriel.me) - eMail
 
-Project Link - [VitalBroadcast](https://github.com/TamrielNetwork/VitalBroadcast) - GitHub
+Project Link - [VitalBroadcast](https://github.com/LeoMeinel/VitalBroadcast) - GitHub
 
 <!-- ACKNOWLEDGEMENTS -->
 
@@ -139,26 +139,26 @@ Project Link - [VitalBroadcast](https://github.com/TamrielNetwork/VitalBroadcast
 
 <!-- MARKDOWN LINKS & IMAGES -->
 
-[contributors-shield]: https://img.shields.io/github/contributors-anon/TamrielNetwork/VitalBroadcast?style=for-the-badge
+[contributors-shield]: https://img.shields.io/github/contributors-anon/LeoMeinel/VitalBroadcast?style=for-the-badge
 
-[contributors-url]: https://github.com/TamrielNetwork/VitalBroadcast/graphs/contributors
+[contributors-url]: https://github.com/LeoMeinel/VitalBroadcast/graphs/contributors
 
-[forks-shield]: https://img.shields.io/github/forks/TamrielNetwork/VitalBroadcast?label=Forks&style=for-the-badge
+[forks-shield]: https://img.shields.io/github/forks/LeoMeinel/VitalBroadcast?label=Forks&style=for-the-badge
 
-[forks-url]: https://github.com/TamrielNetwork/VitalBroadcast/network/members
+[forks-url]: https://github.com/LeoMeinel/VitalBroadcast/network/members
 
-[stars-shield]: https://img.shields.io/github/stars/TamrielNetwork/VitalBroadcast?style=for-the-badge
+[stars-shield]: https://img.shields.io/github/stars/LeoMeinel/VitalBroadcast?style=for-the-badge
 
-[stars-url]: https://github.com/TamrielNetwork/VitalBroadcast/stargazers
+[stars-url]: https://github.com/LeoMeinel/VitalBroadcast/stargazers
 
-[issues-shield]: https://img.shields.io/github/issues/TamrielNetwork/VitalBroadcast?style=for-the-badge
+[issues-shield]: https://img.shields.io/github/issues/LeoMeinel/VitalBroadcast?style=for-the-badge
 
-[issues-url]: https://github.com/TamrielNetwork/VitalBroadcast/issues
+[issues-url]: https://github.com/LeoMeinel/VitalBroadcast/issues
 
-[license-shield]: https://img.shields.io/github/license/TamrielNetwork/VitalBroadcast?style=for-the-badge
+[license-shield]: https://img.shields.io/github/license/LeoMeinel/VitalBroadcast?style=for-the-badge
 
-[license-url]: https://github.com/TamrielNetwork/VitalBroadcast/blob/main/LICENSE
+[license-url]: https://github.com/LeoMeinel/VitalBroadcast/blob/main/LICENSE
 
-[quality-shield]: https://img.shields.io/codefactor/grade/github/TamrielNetwork/VitalBroadcast?style=for-the-badge
+[quality-shield]: https://img.shields.io/codefactor/grade/github/LeoMeinel/VitalBroadcast?style=for-the-badge
 
-[quality-url]: https://www.codefactor.io/repository/github/TamrielNetwork/VitalBroadcast
+[quality-url]: https://www.codefactor.io/repository/github/LeoMeinel/VitalBroadcast
