@@ -16,10 +16,10 @@
  * along with this program. If not, see https://github.com/LeoMeinel/VitalBroadcast/blob/main/LICENSE
  */
 
-package com.tamrielnetwork.vitalwelcome;
+package dev.meinel.leo.vitalwelcome;
 
-import com.tamrielnetwork.vitalwelcome.commands.VitalBroadcastCmd;
-import com.tamrielnetwork.vitalwelcome.files.Messages;
+import dev.meinel.leo.vitalwelcome.commands.VitalBroadcastCmd;
+import dev.meinel.leo.vitalwelcome.files.Messages;
 import org.bukkit.Bukkit;
 import org.bukkit.plugin.java.JavaPlugin;
 

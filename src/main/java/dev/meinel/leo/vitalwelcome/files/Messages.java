@@ -16,9 +16,9 @@
  * along with this program. If not, see https://github.com/LeoMeinel/VitalBroadcast/blob/main/LICENSE
  */
 
-package com.tamrielnetwork.vitalwelcome.files;
+package dev.meinel.leo.vitalwelcome.files;
 
-import com.tamrielnetwork.vitalwelcome.VitalBroadcast;
+import dev.meinel.leo.vitalwelcome.VitalBroadcast;
 import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.configuration.file.YamlConfiguration;
 import org.bukkit.plugin.java.JavaPlugin;

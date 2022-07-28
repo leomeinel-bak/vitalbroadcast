@@ -16,9 +16,9 @@
  * along with this program. If not, see https://github.com/LeoMeinel/VitalBroadcast/blob/main/LICENSE
  */
 
-package com.tamrielnetwork.vitalwelcome.utils.commands;
+package dev.meinel.leo.vitalwelcome.utils.commands;
 
-import com.tamrielnetwork.vitalwelcome.utils.Chat;
+import dev.meinel.leo.vitalwelcome.utils.Chat;
 import org.bukkit.command.CommandSender;
 import org.jetbrains.annotations.NotNull;
 

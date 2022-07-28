@@ -16,10 +16,10 @@
  * along with this program. If not, see https://github.com/LeoMeinel/VitalBroadcast/blob/main/LICENSE
  */
 
-package com.tamrielnetwork.vitalwelcome.commands;
+package dev.meinel.leo.vitalwelcome.commands;
 
-import com.tamrielnetwork.vitalwelcome.utils.Chat;
-import com.tamrielnetwork.vitalwelcome.utils.commands.Cmd;
+import dev.meinel.leo.vitalwelcome.utils.Chat;
+import dev.meinel.leo.vitalwelcome.utils.commands.Cmd;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
