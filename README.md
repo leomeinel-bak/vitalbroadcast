@@ -1,4 +1,5 @@
 <!-- PROJECT SHIELDS -->
+
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
@@ -68,12 +69,12 @@ This plugin is perfect for any server wanting to make announcements.
 
 ### Features
 
-* Broadcast anything
+- Broadcast anything
 
 ### Built With
 
-* [Gradle 7](https://docs.gradle.org/7.4/release-notes.html)
-* [OpenJDK 17](https://openjdk.java.net/projects/jdk/17/)
+- [Gradle 7](https://docs.gradle.org/7.4/release-notes.html)
+- [OpenJDK 17](https://openjdk.java.net/projects/jdk/17/)
 
 <!-- GETTING STARTED -->
 
@@ -85,8 +86,8 @@ To get the plugin running on your server follow these simple steps.
 
 1. Permission: `vitalbroadcast.broadcast`
 
-* Command: `/broadcast <message>`
-* Description: Send broadcast
+- Command: `/broadcast <message>`
+- Description: Send broadcast
 
 ### Configuration - messages.yml
 
@@ -133,30 +134,19 @@ Project Link - [VitalBroadcast](https://github.com/LeoMeinel/VitalBroadcast) - G
 
 ### Acknowledgements
 
-* [README.md - othneildrew](https://github.com/othneildrew/Best-README-Template)
+- [README.md - othneildrew](https://github.com/othneildrew/Best-README-Template)
 
 <!-- MARKDOWN LINKS & IMAGES -->
 
 [contributors-shield]: https://img.shields.io/github/contributors-anon/LeoMeinel/VitalBroadcast?style=for-the-badge
-
 [contributors-url]: https://github.com/LeoMeinel/VitalBroadcast/graphs/contributors
-
 [forks-shield]: https://img.shields.io/github/forks/LeoMeinel/VitalBroadcast?label=Forks&style=for-the-badge
-
 [forks-url]: https://github.com/LeoMeinel/VitalBroadcast/network/members
-
 [stars-shield]: https://img.shields.io/github/stars/LeoMeinel/VitalBroadcast?style=for-the-badge
-
 [stars-url]: https://github.com/LeoMeinel/VitalBroadcast/stargazers
-
 [issues-shield]: https://img.shields.io/github/issues/LeoMeinel/VitalBroadcast?style=for-the-badge
-
 [issues-url]: https://github.com/LeoMeinel/VitalBroadcast/issues
-
 [license-shield]: https://img.shields.io/github/license/LeoMeinel/VitalBroadcast?style=for-the-badge
-
 [license-url]: https://github.com/LeoMeinel/VitalBroadcast/blob/main/LICENSE
-
 [quality-shield]: https://img.shields.io/codefactor/grade/github/LeoMeinel/VitalBroadcast?style=for-the-badge
-
 [quality-url]: https://www.codefactor.io/repository/github/LeoMeinel/VitalBroadcast
