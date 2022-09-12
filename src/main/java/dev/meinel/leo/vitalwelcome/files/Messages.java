@@ -18,24 +18,24 @@ import org.bukkit.plugin.java.JavaPlugin;
 
 public class Messages {
 
-  private final VitalBroadcast main = JavaPlugin.getPlugin(
-      VitalBroadcast.class);
-  private final File messagesFile;
-  private final FileConfiguration messagesConf;
+    private final VitalBroadcast main = JavaPlugin.getPlugin(
+            VitalBroadcast.class);
+    private final File messagesFile;
+    private final FileConfiguration messagesConf;
 
-  public Messages() {
-    messagesFile = new File(main.getDataFolder(), "messages.yml");
-    saveMessagesFile();
-    messagesConf = YamlConfiguration.loadConfiguration(messagesFile);
-  }
-
-  private void saveMessagesFile() {
-    if (!messagesFile.exists()) {
-      main.saveResource("messages.yml", false);
+    public Messages() {
+        messagesFile = new File(main.getDataFolder(), "messages.yml");
+        saveMessagesFile();
+        messagesConf = YamlConfiguration.loadConfiguration(messagesFile);
     }
-  }
 
-  public FileConfiguration getMessagesConf() {
-    return messagesConf;
-  }
+    private void saveMessagesFile() {
+        if (!messagesFile.exists()) {
+            main.saveResource("messages.yml", false);
+        }
+    }
+
+    public FileConfiguration getMessagesConf() {
+        return messagesConf;
+    }
 }

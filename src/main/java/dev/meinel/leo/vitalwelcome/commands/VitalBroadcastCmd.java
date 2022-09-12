@@ -19,34 +19,34 @@ import org.jetbrains.annotations.NotNull;
 
 public class VitalBroadcastCmd implements CommandExecutor {
 
-  @Override
-  public boolean onCommand(
-      @NotNull CommandSender sender,
-      @NotNull Command command,
-      @NotNull String label,
-      @NotNull String[] args) {
-    if (Cmd.isArgsLengthLessThan(sender, args, 1)) {
-      return false;
+    @Override
+    public boolean onCommand(
+            @NotNull CommandSender sender,
+            @NotNull Command command,
+            @NotNull String label,
+            @NotNull String[] args) {
+        if (Cmd.isArgsLengthLessThan(sender, args, 1)) {
+            return false;
+        }
+        doBroadcast(sender, args);
+        return true;
     }
-    doBroadcast(sender, args);
-    return true;
-  }
 
-  private void doBroadcast(
-      @NotNull CommandSender sender,
-      @NotNull String[] args) {
-    if (Cmd.isNotPermitted(sender, "vitalbroadcast.broadcast")) {
-      return;
+    private void doBroadcast(
+            @NotNull CommandSender sender,
+            @NotNull String[] args) {
+        if (Cmd.isNotPermitted(sender, "vitalbroadcast.broadcast")) {
+            return;
+        }
+        StringBuilder broadcastBuilder = new StringBuilder();
+        for (String arg : args) {
+            if (arg.equals(args[0])) {
+                broadcastBuilder.append(arg);
+                continue;
+            }
+            broadcastBuilder.append(" ").append(arg);
+        }
+        String broadcast = broadcastBuilder.toString();
+        Chat.sendBroadcast(broadcast);
     }
-    StringBuilder broadcastBuilder = new StringBuilder();
-    for (String arg : args) {
-      if (arg.equals(args[0])) {
-        broadcastBuilder.append(arg);
-        continue;
-      }
-      broadcastBuilder.append(" ").append(arg);
-    }
-    String broadcast = broadcastBuilder.toString();
-    Chat.sendBroadcast(broadcast);
-  }
 }
