@@ -11,7 +11,7 @@
 <!--suppress ALL -->
 <br />
 <p align="center">
-  <a href="https://github.com/LeoMeinel/VitalBroadcast">
+  <a href="https://github.com/LeoMeinel/vitalbroadcast">
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
@@ -20,14 +20,14 @@
   <p align="center">
     Broadcast on Spigot and Paper
     <br />
-    <a href="https://github.com/LeoMeinel/VitalBroadcast"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/LeoMeinel/vitalbroadcast"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/LeoMeinel/VitalBroadcast">View Demo</a>
+    <a href="https://github.com/LeoMeinel/vitalbroadcast">View Demo</a>
     ·
-    <a href="https://github.com/LeoMeinel/VitalBroadcast/issues">Report Bug</a>
+    <a href="https://github.com/LeoMeinel/vitalbroadcast/issues">Report Bug</a>
     ·
-    <a href="https://github.com/LeoMeinel/VitalBroadcast/issues">Request Feature</a>
+    <a href="https://github.com/LeoMeinel/vitalbroadcast/issues">Request Feature</a>
   </p>
 
 <!-- ABOUT THE PROJECT -->
@@ -73,7 +73,7 @@ no-perms: "&cYou don't have enough permissions!"
 
 ## Roadmap
 
-See the [open issues](https://github.com/LeoMeinel/VitalBroadcast/issues) for a list of proposed features (and
+See the [open issues](https://github.com/LeoMeinel/vitalbroadcast/issues) for a list of proposed features (and
 known issues).
 
 <!-- CONTRIBUTING -->
@@ -101,7 +101,7 @@ Distributed under the GNU General Public License v3.0. See `LICENSE` for more in
 
 Leopold Meinel - [leo@meinel.dev](mailto:leo@meinel.dev) - eMail
 
-Project Link - [VitalBroadcast](https://github.com/LeoMeinel/VitalBroadcast) - GitHub
+Project Link - [VitalBroadcast](https://github.com/LeoMeinel/vitalbroadcast) - GitHub
 
 <!-- ACKNOWLEDGEMENTS -->
 
@@ -111,15 +111,15 @@ Project Link - [VitalBroadcast](https://github.com/LeoMeinel/VitalBroadcast) - G
 
 <!-- MARKDOWN LINKS & IMAGES -->
 
-[contributors-shield]: https://img.shields.io/github/contributors-anon/LeoMeinel/VitalBroadcast?style=for-the-badge
-[contributors-url]: https://github.com/LeoMeinel/VitalBroadcast/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/LeoMeinel/VitalBroadcast?label=Forks&style=for-the-badge
-[forks-url]: https://github.com/LeoMeinel/VitalBroadcast/network/members
-[stars-shield]: https://img.shields.io/github/stars/LeoMeinel/VitalBroadcast?style=for-the-badge
-[stars-url]: https://github.com/LeoMeinel/VitalBroadcast/stargazers
-[issues-shield]: https://img.shields.io/github/issues/LeoMeinel/VitalBroadcast?style=for-the-badge
-[issues-url]: https://github.com/LeoMeinel/VitalBroadcast/issues
-[license-shield]: https://img.shields.io/github/license/LeoMeinel/VitalBroadcast?style=for-the-badge
-[license-url]: https://github.com/LeoMeinel/VitalBroadcast/blob/main/LICENSE
-[quality-shield]: https://img.shields.io/codefactor/grade/github/LeoMeinel/VitalBroadcast?style=for-the-badge
-[quality-url]: https://www.codefactor.io/repository/github/LeoMeinel/VitalBroadcast
+[contributors-shield]: https://img.shields.io/github/contributors-anon/LeoMeinel/vitalbroadcast?style=for-the-badge
+[contributors-url]: https://github.com/LeoMeinel/vitalbroadcast/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/LeoMeinel/vitalbroadcast?label=Forks&style=for-the-badge
+[forks-url]: https://github.com/LeoMeinel/vitalbroadcast/network/members
+[stars-shield]: https://img.shields.io/github/stars/LeoMeinel/vitalbroadcast?style=for-the-badge
+[stars-url]: https://github.com/LeoMeinel/vitalbroadcast/stargazers
+[issues-shield]: https://img.shields.io/github/issues/LeoMeinel/vitalbroadcast?style=for-the-badge
+[issues-url]: https://github.com/LeoMeinel/vitalbroadcast/issues
+[license-shield]: https://img.shields.io/github/license/LeoMeinel/vitalbroadcast?style=for-the-badge
+[license-url]: https://github.com/LeoMeinel/vitalbroadcast/blob/main/LICENSE
+[quality-shield]: https://img.shields.io/codefactor/grade/github/LeoMeinel/vitalbroadcast?style=for-the-badge
+[quality-url]: https://www.codefactor.io/repository/github/LeoMeinel/vitalbroadcast
