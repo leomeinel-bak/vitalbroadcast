@@ -2,7 +2,7 @@
  * File: VitalBroadcast.java
  * Author: Leopold Meinel (leo@meinel.dev)
  * -----
- * Copyright (c) 2022 Leopold Meinel & contributors
+ * Copyright (c) 2023 Leopold Meinel & contributors
  * SPDX ID: GPL-3.0-or-later
  * URL: https://www.gnu.org/licenses/gpl-3.0-standalone.html
  * -----
@@ -29,7 +29,7 @@ public final class VitalBroadcast extends JavaPlugin {
         Bukkit
                 .getLogger()
                 .info(
-                        "VitalBroadcast v" + this.getDescription().getVersion() + " enabled");
+                        "VitalBroadcast v" + this.getPluginMeta().getVersion() + " enabled");
         Bukkit.getLogger().info("Copyright (C) 2022 Leopold Meinel");
         Bukkit.getLogger().info("This program comes with ABSOLUTELY NO WARRANTY!");
         Bukkit
@@ -47,7 +47,7 @@ public final class VitalBroadcast extends JavaPlugin {
         Bukkit
                 .getLogger()
                 .info(
-                        "VitalBroadcast v" + this.getDescription().getVersion() + " disabled");
+                        "VitalBroadcast v" + this.getPluginMeta().getVersion() + " disabled");
     }
 
     public Messages getMessages() {
