@@ -2,7 +2,7 @@
  * File: VitalBroadcastCmd.java
  * Author: Leopold Meinel (leo@meinel.dev)
  * -----
- * Copyright (c) 2022 Leopold Meinel & contributors
+ * Copyright (c) 2023 Leopold Meinel & contributors
  * SPDX ID: GPL-3.0-or-later
  * URL: https://www.gnu.org/licenses/gpl-3.0-standalone.html
  * -----
@@ -20,11 +20,8 @@ import org.jetbrains.annotations.NotNull;
 public class VitalBroadcastCmd implements CommandExecutor {
 
     @Override
-    public boolean onCommand(
-            @NotNull CommandSender sender,
-            @NotNull Command command,
-            @NotNull String label,
-            @NotNull String[] args) {
+    public boolean onCommand(@NotNull CommandSender sender, @NotNull Command command,
+            @NotNull String label, @NotNull String[] args) {
         if (Cmd.isArgsLengthLessThan(sender, args, 1)) {
             return false;
         }
@@ -32,9 +29,7 @@ public class VitalBroadcastCmd implements CommandExecutor {
         return true;
     }
 
-    private void doBroadcast(
-            @NotNull CommandSender sender,
-            @NotNull String[] args) {
+    private void doBroadcast(@NotNull CommandSender sender, @NotNull String[] args) {
         if (Cmd.isNotPermitted(sender, "vitalbroadcast.broadcast")) {
             return;
         }
