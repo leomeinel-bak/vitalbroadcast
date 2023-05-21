@@ -30,7 +30,7 @@ public class VitalBroadcastCmd implements CommandExecutor {
     }
 
     private void doBroadcast(@NotNull CommandSender sender, @NotNull String[] args) {
-        if (Cmd.isNotPermitted(sender, "vitalbroadcast.broadcast")) {
+        if (!Cmd.isPermitted(sender, "vitalbroadcast.broadcast")) {
             return;
         }
         StringBuilder broadcastBuilder = new StringBuilder();
