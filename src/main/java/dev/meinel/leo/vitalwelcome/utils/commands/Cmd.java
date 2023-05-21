@@ -23,7 +23,6 @@ public class Cmd {
     public static boolean isArgsLengthLessThan(@NotNull CommandSender sender,
             @NotNull String[] args, int length) {
         if (args.length < length) {
-            Chat.sendMessage(sender, "cmd");
             return true;
         }
         return false;
