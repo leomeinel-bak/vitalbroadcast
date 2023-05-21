@@ -38,6 +38,7 @@ public class Chat {
                 Objects.requireNonNull(main.getMessages().getMessagesConf().getString(message))));
     }
 
+    // FIXME: Replace deprecated org.bukkit.ChatColor with alternative
     public static String replaceColors(@NotNull String string) {
         return ChatColor.translateAlternateColorCodes('&', string);
     }
